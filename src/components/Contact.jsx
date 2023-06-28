@@ -58,6 +58,7 @@ const Contact = () => {
                 name="user_name"
                 type="text"
                 placeholder="Your Name"
+                required
               />
             </div>
             <div className="mb-4">
@@ -72,6 +73,7 @@ const Contact = () => {
                 name="user_email"
                 type="email"
                 placeholder="Your Email"
+                required
               />
             </div>
             <div className="mb-6">
@@ -86,6 +88,7 @@ const Contact = () => {
                 name="message"
                 placeholder="Type your message here"
                 rows="4"
+                required
               ></textarea>
             </div>
             <div className="flex items-center justify-start">
