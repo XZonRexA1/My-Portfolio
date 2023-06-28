@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink,animateScroll } from "react-scroll";
-
+import '../Css/NavBar.css'
 
 const NavBar = () => {
 
@@ -41,8 +41,9 @@ const NavBar = () => {
           smooth={true}
           duration={500}
           spy={true}
-          offset={-70}
+          offset={-125}
           onClick={closeDropdown}
+          activeClass="active"
         >
           About Me
         </ScrollLink>
@@ -53,8 +54,9 @@ const NavBar = () => {
           smooth={true}
           duration={500}
           spy={true}
-          offset={-80}
+          offset={-100}
           onClick={closeDropdown}
+          activeClass="active"
         >
           Projects
         </ScrollLink>
@@ -65,8 +67,9 @@ const NavBar = () => {
           smooth={true}
           duration={500}
           spy={true}
-          offset={-70}
+          offset={150}
           onClick={closeDropdown}
+          activeClass="active"
         >
           Contact
         </ScrollLink>
@@ -109,7 +112,7 @@ const NavBar = () => {
           )}
         </div>
 
-          <Link to="/" className="font-semibold ml-8 font-rubik text-xl">
+          <Link to="/" onClick={scrollToTop} className="font-semibold ml-8 font-rubik text-xl">
             Alif Chowdhury Apurbo
           </Link>
         </div>

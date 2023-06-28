@@ -6,8 +6,8 @@ import { Fade } from "react-awesome-reveal";
 const Projects = () => {
   return (
     <div id="projects">
-      <h2 className="text-4xl font-bold ml-4 md:ml-20 mb-8  md:text-left  md:mb-4 font-rubik mt-28 md:mt-56">
-        My Projects
+      <h2 className="text-4xl font-bold ml-4 md:ml-20 mb-8  md:text-left  md:mb-4 font-rubik mt-28 md:mt-60">
+        My <span className="text-orange-500">Projects</span>
       </h2>
       <Fade delay={1e2} cascade damping={1e-1}>
         <div className="grid md:grid-cols-3 md:-mt-8 md:mx-4">

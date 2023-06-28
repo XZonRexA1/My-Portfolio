@@ -4,7 +4,7 @@ import resume from '../../public/images/alif-chowdhury-apurbo-resume.pdf'
 const Header = () => {
  
   return (
-    <div className="mt-56 ml-2 flex flex-col-reverse  md:flex md:flex-row  justify-center items-center m-4 md:gap-12">
+    <div className="mt-56 ml-8 md:ml-2 flex flex-col-reverse  md:flex md:flex-row  justify-center items-center m-2 md:gap-12">
       <Slide delay={1e2}>
         <h2 className="text-2xl md:text-4xl  font-rubik tracking-wider mt-16 mr-12">
           <span className="text-7xl">Hi</span>, My name is{" "}
@@ -14,7 +14,7 @@ const Header = () => {
             <a
               href={resume}
               download
-              className="btn btn-warning hover:bg-yellow-400"
+              className="btn bg-orange-400 text-black border-none hover:bg-orange-300"
             >
               Download My Resume
             </a>
