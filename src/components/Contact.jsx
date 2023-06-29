@@ -29,13 +29,13 @@ const Contact = () => {
   };
   return (
     <div id="contact" className="font-rubik grid md:grid-cols-2">
-      <dir>
+      <div>
         <img
           src={contactImage}
           className="w-full hidden md:block mt-52"
           alt=""
         />
-      </dir>
+      </div>
       <div>
         <h2 className="mt-56 mb-8 md:mb-4 font-rubik ml-4 md:text-center md:mr-40 text-4xl font-bold">
           Contact <span className="text-orange-500">With Me</span>
